@@ -116,7 +116,6 @@ body{
 .img_menu{
     margin: 0px;
     padding: 0px;
-    position: absolute;
     top: 400px;
     left: 75px;
     height: 100px;
@@ -129,7 +128,6 @@ body{
     margin-top: 20px;
     margin-left: 20px;
     padding: 0px;
-    position: absolute;
     top: 200px;
     left: 260px;
     width: auto;
@@ -166,7 +164,6 @@ body{
 .page_footer{
     margin: 0px;
     padding: 0px;
-    position: absolute;
     height: 200px;
     width: 100%;
     bottom: 0;
