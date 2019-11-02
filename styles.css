@@ -1,0 +1,44 @@
+body{
+    margin: 0px;
+    padding: 0px;
+
+    font-size: 50px;
+    text-align: center;
+    line-height: 80px;
+}
+.calculator{
+    margin-top: 50px;
+    margin-left: 50px;
+    padding-top: 20px;
+    height: 600px;
+    width: 400px;
+
+    border: solid 1px;
+    
+}
+.screen{
+    margin-top: 50px;
+    height: 430px;
+    width: 400px;
+    
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(5, 20%);
+}
+.result{
+    border-bottom: solid 1px;
+    border-top: solid 1px;
+    width: 400px;
+    height: 100px;
+    text-align: right;
+}
+.first{
+    grid-column: span 2;
+}
+.fifth{
+    grid-column: span 3;
+    
+}
+#touch{
+    border: solid 1px;
+}
