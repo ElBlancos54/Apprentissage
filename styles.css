@@ -1,0 +1,73 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+.main{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+.left{
+    margin: 0px;
+    padding: 0px;
+    background-color: #25A0F3;
+    height: 900px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: white;
+    flex-wrap: wrap;
+}
+.info{
+    margin: 0px;
+    padding: 0px;
+    width: 500px;
+    font-weight: bold;
+    line-height: 70px;
+    text-justify: auto;
+}
+.right{
+    margin: 0px;
+    padding: 0px;
+    height: 900px;
+    width: 50%;
+}
+.register{
+    padding: 0px;
+    display: flex;
+    justify-content: flex-end;
+    height: 23px;
+    margin-right: 20px;
+}
+.connect{
+    border-radius: 10px;
+    background: white;
+    color: #25A0F3;
+    size: 20px;
+    border: #25A0F3 solid 2px;
+}
+.signup{
+    margin: 0px;
+    padding: 0px;
+    height: 400px;
+    font-size: 27px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 350px;
+}
+.footer{
+    margin-bottom: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    line-height: 20px;
+    font-size: 12px;
+    word-spacing: normal;
+}
