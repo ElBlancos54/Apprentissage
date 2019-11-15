@@ -1,0 +1,145 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+img{
+    margin: 5px;
+    height: 70px;
+}
+.main{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+.left{
+    margin: 0px;
+    padding: 0px;
+    background-color: #25A0F3;
+    height: 900px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: white;
+    flex-wrap: wrap;
+}
+.info{
+    margin: 0px;
+    padding: 0px;
+    width: 500px;
+    font-weight: bold;
+    line-height: 70px;
+    text-justify: auto;
+}
+.infos{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.right{
+    margin: 0px;
+    padding: 0px;
+    height: 900px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.register{
+    padding: 0px;
+    display: inline-flex;
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    height: 40px;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+.connect_s{
+    border-radius: 100px;
+    background: white;
+    color: #25A0F3;
+    border: #25A0F3 solid 1px;
+    font-weight: bold;
+    line-height: 40px;
+    cursor: pointer;
+}
+.connect_f{
+    border-radius: 100px;
+    background: white;
+    color: #25A0F3;
+    border: #25A0F3 solid 1px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.connect_f:hover, .connect_s:hover{
+    background-color: rgb(225, 243, 255);
+}
+input{
+    margin-right: 10px;
+    padding-left: 8px;
+    line-height: 37px;
+    border: 1px solid #c2cfd8;
+}
+
+.signup{
+    margin: 0px;
+    padding: 0px;
+    height: 400px;
+    font-size: 27px;
+    max-width: 350px;
+}
+.presentation{
+    margin: 0;
+    padding: 0;
+    font-size: 27px;
+    font-weight: bolder;
+}
+.title{
+    font-size: 18px;
+    font-weight: bold;
+}
+.submit{
+    border-radius: 100px;
+    background-color: #25A0F3;
+    color: white;
+    font-weight: bold;
+    line-height: 40px;
+    border: none;
+    cursor: pointer;
+}
+.submit:hover{
+    background-color: rgb(12, 124, 199);
+}
+#test{
+    width: 350px;
+    margin-bottom: 16px;
+}
+.footer{
+    margin-bottom: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    line-height: 20px;
+    font-size: 12px;
+    word-spacing: normal;
+}
+.footer_p{
+    color: #aab8c2;
+}
+hr{
+    margin: 0;
+    padding: 0;
+    border: none;
+    height: 1px;
+    background-color: #aab8c2;
+    opacity: 0.5;
+}
