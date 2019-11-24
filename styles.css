@@ -6,9 +6,6 @@ body{
     padding: 0px;
     font-family: 'Open Sans', sans-serif;
 }
-img{
-    height:70px;
-}
 .main{
     margin: 0px;
     padding: 0px;
@@ -153,18 +150,12 @@ hr{
     .register{
         display: none;
     }
-    img{
-    height:70px;
-    }
 }
 
 /* taille d'écran type portable */
 @media screen and (max-width: 779px){
     .register{
         display: none;
-    }
-    img{
-    height:70px;
     }
     .main{
         flex-wrap: wrap;
