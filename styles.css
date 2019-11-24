@@ -3,10 +3,7 @@ body{
     padding: 0px;
     font-family: 'Open Sans', sans-serif;
 }
-img{
-    margin: 5px;
-    height: 70px;
-}
+
 .main{
     margin: 0px;
     padding: 0px;
@@ -142,4 +139,37 @@ hr{
     height: 1px;
     background-color: #aab8c2;
     opacity: 0.5;
+}
+
+
+
+/* taille d'écran type tablette*/ 
+@media screen and (min-width: 780px) and (max-width: 979px){
+    .register{
+        display: none;
+    }
+}
+
+/* taille d'écran type portable */
+@media screen and (max-width: 779px){
+    .register{
+        display: none;
+    }
+    .main{
+        flex-wrap: wrap;
+    }
+    .left, .right{
+        width: 100%;
+        height: auto;
+    }
+    .right{
+        order: 1;
+    }
+    .left{
+        order: 2;
+    }
+    .footer{
+        flex-wrap: wrap;
+        height: 50px;
+    }
 }
